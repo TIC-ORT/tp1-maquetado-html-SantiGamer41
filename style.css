@@ -1,22 +1,46 @@
 body {
-background-color: rgb(214, 214, 214);
+background-color: rgb(214, 214, 214);    
 }
-div{
+.header{
+
+}
+.barra_gris{
     display: flex;
-    justify-content: center; 
+    justify-content:space-evenly; 
     align-items:center; 
     height: 80px;
     width: 100% ;
     background-color: rgb(99, 99, 99);
     font-size: larger;
-    div{
-        display: flex;
-        height: 40px;
-        width: 200px;
-        padding: 10px ;
-        background-color: aqua;
-    }
 }
+.contenedor_naranja{
+display: flex;
+justify-content:flex-start;
+padding-left: 30px;
+}
+.bloque_naranja{
+display: flex;
+height: 40px;
+width: 200px;
+padding-left: 10px;
+background-color: rgb(226, 145, 39);
+}
+    
+contenedor_rayitas{
+display: flex;
+justify-content:flex-start;
+padding-left: 30px;
+}
+.rayitas{
+display: flex;
+height: 15px;
+width: 125px;
+padding: 1px;
+background-color: rgb(255, 255, 255);
+}
+    
+
+
 h2{
     background-color: brown;
 }
