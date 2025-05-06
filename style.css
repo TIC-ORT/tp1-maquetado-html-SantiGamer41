@@ -1,9 +1,7 @@
 body {
-background-color: rgb(214, 214, 214);    
+    background-color: rgb(214, 214, 214);    
 }
-.header{
 
-}
 .barra_gris{
     display: flex;
     justify-content:space-evenly; 
@@ -14,33 +12,58 @@ background-color: rgb(214, 214, 214);
     font-size: larger;
 }
 .contenedor_naranja{
-display: flex;
-justify-content:flex-start;
-padding-left: 30px;
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 30px;
 }
 .bloque_naranja{
-display: flex;
-height: 40px;
-width: 200px;
-padding-left: 10px;
-background-color: rgb(226, 145, 39);
+    display: flex;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+    background-color: rgb(226, 145, 39);
 }
     
-contenedor_rayitas{
-display: flex;
-justify-content:flex-start;
-padding-left: 30px;
+.contenedor_rayitas{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+    padding-left: 30px;
 }
-.rayitas{
-display: flex;
-height: 15px;
-width: 125px;
-padding: 1px;
-background-color: rgb(255, 255, 255);
+.rayita1{
+    display: flex;
+    height: 15px;
+    width: 125px;
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
 }
-    
 
-
-h2{
-    background-color: brown;
+.rayita2{
+    display:flex;
+    height: 15px;
+    width: 125px;
+    padding: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.rayita3{
+    display:flex;
+    height: 15px;
+    width: 50px;
+    padding: 1px;
+    background-color: rgb(226, 145, 39);
+}
+.barra_busqueda{
+    display: flex;
+    justify-content:space-evenly; 
+    align-items:center; 
+    height: 60px;
+    width: 100% ;
+    background-color: rgb(156, 156, 156);
+    font-size: larger;
+}
+.rayitas_busqueda{
+    display: flex;
+    gap: 20px;
+    justify-content:space-between;
+    padding-left: 30px;
 }
