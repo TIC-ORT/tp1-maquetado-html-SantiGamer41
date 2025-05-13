@@ -118,7 +118,33 @@ body {
     align-items: center;
 }
 .rectangulo_oscuro{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 12px;
     height: 150px;
     width: 200px;
     background-color: rgb(85, 85, 85);
+}
+.rayita_naranja_rectangulo{
+    margin-top: 40px;
+    height: 20px;
+    width: 120px;
+    background-color: rgb(248, 161, 0);
+}
+.rayita_rectangulo1{
+    height: 5px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+}
+.rayita_rectangulo2{
+    height: 5px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+}
+.rayita_rectangulo3{
+    margin-right: 60px;
+    height: 5px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
 }
