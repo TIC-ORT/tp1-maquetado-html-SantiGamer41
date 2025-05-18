@@ -105,6 +105,8 @@ body {
 }
 .middle{
     display: flex;
+    flex-direction: column;
+
 }
 .contenedor_claro{
     display: flex;
@@ -147,4 +149,65 @@ body {
     height: 5px;
     width: 60px;
     background-color: rgb(255, 255, 255);
+}
+.contenedor_vacio{
+    width: 200px;
+}
+.contenedor_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.contenedor_superior {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.contenedor_rayitas_sin_bordes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.rayita_sin_bordes1{
+    margin-top: 50px;
+    height: 10px;
+    width: 120px;
+    background-color: rgb(58, 58, 58);
+}
+.rayita_sin_bordes2{
+    height: 10px;
+    width: 120px;
+    background-color: rgb(126, 126, 126);
+}
+.rayita_sin_bordes3{
+    height: 10px;
+    width: 120px;
+    background-color: rgb(126, 126, 126);
+}
+.rayita_sin_bordes4{
+    height: 10px;
+    width: 60px;
+    margin-right: 60px;
+    margin-bottom: 70px;
+    background-color: rgb(126, 126, 126);
+}
+.contenedor_rectangulo_rojo_sin_bordes {
+    width: 180px;
+    height: 85px;
+    background-color: rgb(255, 82, 70);
+    margin-top: 50px;
+}
+
+.barra_larga_sin_bordes {
+    width: 315px; /* ancho rayitas + gap + rectángulo */
+    height: 20px;
+    background-color: rgb(58, 58, 58);
+}
+.barra_divisora{
+    height: 80px;
+    width: 100% ;
+    background-color: rgb(194, 194, 194);
 }
