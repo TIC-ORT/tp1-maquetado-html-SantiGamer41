@@ -118,6 +118,7 @@ body {
     display:flex;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 250px;
 }
 .rectangulo_oscuro{
     display:flex;
@@ -211,3 +212,87 @@ body {
     width: 100% ;
     background-color: rgb(194, 194, 194);
 }
+.contenedor_inferior {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    padding: 40px 30px;
+}
+
+.bloque_gris_inferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(174, 174, 174);
+}
+.contenedor_cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 30px;
+}
+.cuadrado1{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(58, 58, 58);
+}
+.cuadrado2{
+    height: 120px;
+    width: 120px;
+    background-color: rgb(255, 82, 70);
+}
+.cuadrado3{
+    height: 120px;
+    width: 120px;
+    background-color: orange;
+}
+.rayita_gorda_inferior{
+    width: 140px;
+    height: 20px;
+    background-color: rgb(57, 57, 57);
+}
+.rayita_inferior{
+    width: 140px;
+    height: 5px;
+    background-color: gray;
+}
+.rayita_corta{
+    width: 70px;
+    height: 5px;
+    background-color: gray;
+}
+.barra_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    height: 100px;
+    width: 100% ;
+    background-color: rgb(49, 49, 49);
+}
+.contenedor_rayitas_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.rayita_footer{
+    width: 140px;
+    height: 5px;
+    background-color: gray;
+}
+.rayita_corta_footer{
+    width: 70px;
+    height: 5px;
+    background-color: gray;
+}
+
